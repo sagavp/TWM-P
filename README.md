@@ -10,3 +10,10 @@ Integrantes:
 - Benjamín Parra
 
 Link figma: https://www.figma.com/design/HjoQr7eHSvSBZJ8t1FYAMI/PROYECTO?node-id=0-1&t=m8TKzFPAxWEvV4fR-1
+
+Uso ´reactproyect´:
+
+en cmd:
+npm install en la carpeta principal 
+npm run dev
+pegar localhost en navegador
