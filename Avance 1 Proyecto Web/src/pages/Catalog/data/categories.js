@@ -1,0 +1,85 @@
+export const categoryTree = [
+  {
+    id: 'servicios',
+    label: 'Servicios',
+    children: [
+      { id: 'computacion-tecnologia', label: 'Computación Y Tecnología' },
+      {
+        id: 'servicios-domesticos',
+        label: 'Servicios Domésticos',
+        children: [
+          { id: 'aseo', label: 'Aseo' },
+          { id: 'jardin', label: 'Trabajo De Jardín' },
+          { id: 'combustion', label: 'Limpieza De Combustión Y Reparaciones Menores' },
+          { id: 'cuidado-adultos', label: 'Cuidado De Adultos' },
+          { id: 'cuidado-ninos', label: 'Cuidado De Niños' },
+          { id: 'otros-domesticos', label: 'Otros Servicios Domésticos' },
+        ],
+      },
+      {
+        id: 'servicios-profesionales',
+        label: 'Servicios Profesionales',
+        children: [
+          { id: 'computacion-profesional', label: 'Computación' },
+          { id: 'abogados', label: 'Abogados' },
+          { id: 'contadores', label: 'Contadores Y Auditores' },
+          { id: 'arquitecto', label: 'Arquitecto' },
+          { id: 'psicologos', label: 'Psicólogos' },
+          {
+            id: 'salud',
+            label: 'Servicio De Salud',
+            children: [
+              { id: 'medico', label: 'Médico' },
+              { id: 'dentista', label: 'Dentista' },
+              { id: 'enfermeria', label: 'Enfermería' },
+              { id: 'kinesiologia', label: 'Kinesiología' },
+              { id: 'otros-salud', label: 'Otros' },
+            ],
+          },
+          {
+            id: 'educativos',
+            label: 'Servicios Educativos',
+            children: [
+              { id: 'clases', label: 'Clases Particulares' },
+              { id: 'fonoaudiologia', label: 'Fonoaudiología' },
+              { id: 'terapeuta', label: 'Terapeuta Ocupacional' },
+              { id: 'otros-educativos', label: 'Otros' },
+            ],
+          },
+          { id: 'veterinarios', label: 'Veterinarios' },
+          { id: 'otros-profesionales', label: 'Otros' },
+        ],
+      },
+      { id: 'vehiculos-servicio', label: 'Vehículos' },
+      { id: 'confeccion', label: 'Confección De Ropa Y Vestuario' },
+      { id: 'banqueteria', label: 'Servicio De Banquetería Y Alimentación' },
+      { id: 'otros-servicios', label: 'Otros Servicios' },
+    ],
+  },
+  {
+    id: 'productos',
+    label: 'Productos',
+    children: [
+      {
+        id: 'tecnologia',
+        label: 'Tecnología',
+        children: [
+          { id: 'computacion', label: 'Computación' },
+          { id: 'audio', label: 'Audio Y Música' },
+          { id: 'juegos', label: 'Juegos Y Consolas' },
+          { id: 'electronica', label: 'Electrónica Y Televisión' },
+          { id: 'otros-tecnologia', label: 'Otros' },
+        ],
+      },
+      { id: 'celulares', label: 'Celulares' },
+      { id: 'hogar', label: 'Hogar Y Cocina' },
+      { id: 'alimentacion', label: 'Alimentación' },
+      { id: 'accesorios-vehiculos', label: 'Accesorios Para Vehículos' },
+      { id: 'libros', label: 'Libros E Instrumentos Musicales' },
+      { id: 'ropa', label: 'Ropa, Moda Y Calzado' },
+      { id: 'juguetes', label: 'Juguetes Y Niños' },
+      { id: 'utiles', label: 'Útiles Y Librería' },
+      { id: 'otros-productos', label: 'Otros Productos' },
+    ],
+  },
+];
